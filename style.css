@@ -11,7 +11,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #e9eef5; /* Cor de fundo da página */
-    color: #333; /* Cor principal do texto */
+    color: black(240, 121, 141); /* Cor principal do texto */
     line-height: 1.6;
 }
 
@@ -39,7 +39,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: #6ab7e4; /* Cor do cabeçalho */
+    background-color: rgb(216, 105, 123); /* Cor do cabeçalho */
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -79,7 +79,7 @@ body {
 
 /* Títulos das seções */
 .secao h2 {
-    color: #1f4e79;
+    color:rgb(226, 109, 129);
     margin-bottom: 10px;
     font-size: 24px;
 }
@@ -103,17 +103,21 @@ li {
     Caixa dos projetos.
     Pode ser usada para destacar experiências ou trabalhos escolares.
 */
+.btnsite{
+color:blueviolet;
+background-color:pink;
+}
 .projeto {
     background-color: #f2f6fa;
     padding: 15px;
     margin-top: 10px;
-    border-left: 5px solid #1f4e79;
+    border-left: 5px solid #791f5b;
     border-radius: 6px;
 }
 
 /* Título do projeto */
 .projeto h3 {
-    color: #333;
+    color: rgb(241, 136, 153);
     margin-bottom: 5px;
 }
 
